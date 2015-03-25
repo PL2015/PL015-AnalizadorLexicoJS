@@ -4,20 +4,19 @@
     <title>Mocha</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="mocha.css" />
+    <link rel="stylesheet" href="tests/mocha.css" />
     
     
-    <link href="../styles/global.css" rel="stylesheet" type="text/css">
-    <script src="../scripts/parse.js"></script>
-    <script src="../scripts/tokens.js"></script>
-    <script src="../lib/jquery.min.js"></script>
+    <link href="styles/global.css" rel="stylesheet" type="text/css">
+    <script src="scripts/parse.js"></script>
+    <script src="scripts/tokens.js"></script>
+    <script src="lib/jquery.min.js"></script>
 
-    <script src="../scripts/main.js"></script>
+    <script src="scripts/main.js" data-cover></script>
     
     
   </head>
   <body>
-    <div id="mocha"></div>
     
     <h1>Top Down Operator Precedence. Lexical Analysis</h1>
       <p>
@@ -40,15 +39,16 @@ var b = function(x) {
       <pre id=OUTPUT></pre>
 
     
+    <div id="mocha"></div>
     
     
     
     
-    
-    <script src="chai.js"></script>
-    <script src="mocha.js"></script>
-    <script>mocha.setup('bdd')</script>
-    <script src="tests.js"></script>
+    <script src="tests/chai.js"></script>
+    <script src="tests/mocha.js"></script>
+    <script>mocha.setup('tdd')</script>
+    <script src="tests/blanket.min.js" data-cover-adapter="tests/mocha-blanket.js"></script>
+    <script src="tests/tests.js"></script>
     <script>
       mocha.run();
     </script>
