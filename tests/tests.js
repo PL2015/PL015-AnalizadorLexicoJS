@@ -2,6 +2,18 @@ var assert = chai.assert;
 
 
 suite('analizadorLex', function () {
+   setup(function(){
+        //var result;
+    
+        if (typeof __html__ !== 'undefined') {
+            document.body.innerHTML = __html__['test/index.html'];
+            //original = document.getElementById('original');
+        }
+        
+    });
+
+
+
    test ('1', function () {
    
    });
