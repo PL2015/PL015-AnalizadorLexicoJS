@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-<html>
-   <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <title>Top Down Operator Precedence</title>
-      <link href="styles/global.css" rel="stylesheet" type="text/css">
-      <script src="scripts/parse.js"></script>
-      <script src="scripts/tokens.js"></script>
-      <script src="lib/jquery.min.js"></script>
-      <script src="scripts/main.js"></script>
-   </head>
-
-   <body>
-      <h1>Top Down Operator Precedence. Lexical Analysis</h1>
+<link rel="stylesheet" href="tests/mocha.css" />
+<h1>Top Down Operator Precedence. Lexical Analysis</h1>
       <p>
          <nav>
             <a href="http://javascript.crockford.com/tdop/tdop.html" class="mylink">Top Down Operator Precedence tutorial</a>
@@ -30,5 +18,18 @@ var b = function(x) {
       <br>
       <input id="PARSE" value=parse type=button class="mylink">
       <pre id=OUTPUT></pre>
-   </body>
-</html>
+
+    
+    <div id="mocha"></div>
+    
+    
+    
+    
+    <script src="../tests/chai.js"></script>
+    <script src="../tests/mocha.js"></script>
+    <script>mocha.setup('tdd')</script>
+    <script src="../tests/blanket.min.js" data-cover-adapter="../tests/mocha-blanket.js"></script>
+    <script src="../tests/tests.js"></script>
+    <script>
+      mocha.run();
+    </script>
