@@ -51,7 +51,7 @@ gulp.task('test', function() {
 gulp.task('macTest', function() {
   gulp.src('')
     .pipe(shell([
-      'open tests/index.html',
+      'open test.html',
       'ls -la',
       'echo FinalizadoTest'
     ]));
