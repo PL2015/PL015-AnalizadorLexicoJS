@@ -51,7 +51,7 @@ gulp.task('test', function() {
 gulp.task('macTest', function() {
   gulp.src('')
     .pipe(shell([
-      'open tests/index.html',
+      'open test.html',
       'ls -la',
       'echo FinalizadoTest'
     ]));
@@ -71,4 +71,8 @@ gulp.task('default', function() {
       configFile: 'my.conf.js',
       action: 'watch'
     }));
+});
+
+gulp.task('server', function() {
+   return gulp.src('').pipe(shell([ 'node-supervisor app.js' ]));
 });

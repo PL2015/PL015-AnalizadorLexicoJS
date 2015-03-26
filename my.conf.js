@@ -18,7 +18,7 @@ module.exports = function(config) {
       'lib/*js',
       'tests/*.js',
       'scripts/*.js',
-      'tests/index.html'
+      'test.html'
     ],
     
     client: {
@@ -30,14 +30,15 @@ module.exports = function(config) {
 
     // list of files to exclude
     exclude: [
-       'gulpfile.js'
+       'gulpfile.js',
+       'tests/tests2.js'
     ],
 
 
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-       'tests/index.html': ['html2js']
+       'test.html': ['html2js']
     },
 
 
@@ -66,7 +67,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['Firefox', 'Chrome'],
+    browsers: ['Firefox'],
 
     // If browser does not capture in given timeout [ms], kill it
     captureTimeout: 60000,
