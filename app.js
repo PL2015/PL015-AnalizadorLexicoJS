@@ -2,9 +2,10 @@ var _ = require('underscore');
 var $ = require('jquery');
 var express = require('express');
 
-//var csv = require('./scripts/server.js');
-
 var app = express();
+
+module.exports = app;
+
 var path = require('path');
 var expressLayouts = require('express-ejs-layouts');
 
@@ -25,4 +26,15 @@ app.listen(app.get('port'), function () {
 
 app.get('/test/', function (request, response) {
    response.render('test', { title: 'Analiz. Lex. JS test' });
+});
+
+
+var server = app.listen(3000, function () {
+
+   var host = server.address().address;
+   var port = server.address().port;
+   
+   console.log('Ex app list at https://%s:%s', host, port);
+
+
 });
