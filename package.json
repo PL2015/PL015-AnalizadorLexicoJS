@@ -4,7 +4,7 @@
   "description": "ULL ESIT Grado de Informática. 3º. PL Lab \"Analizador Léxico de un subconjunto de JavaScript\"",
   "main": "main.js",
   "scripts": {
-    "test": "open test.html"
+    "test": "xdg-open localhost:5000/test"
   },
   "repository": {
     "type": "git",
