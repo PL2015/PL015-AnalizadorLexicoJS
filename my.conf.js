@@ -18,7 +18,7 @@ module.exports = function(config) {
       'lib/*js',
       'tests/*.js',
       'scripts/*.js',
-      'tests/index.html'
+      'test.html'
     ],
     
     client: {

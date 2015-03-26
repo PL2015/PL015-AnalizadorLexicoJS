@@ -54,6 +54,7 @@
     "karma-phantomjs-launcher": "*",
     "mocha": "latest",
     "node-static": "^0.7.6",
-    "supervisor": "*"
+    "supervisor": "*",
+    "supertest": "*"
   }
 }

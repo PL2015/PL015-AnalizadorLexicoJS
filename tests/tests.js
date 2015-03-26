@@ -6,7 +6,7 @@ suite('analizadorLex', function () {
         //var result;
     
         if (typeof __html__ !== 'undefined') {
-            document.body.innerHTML = __html__['test/index.html'];
+            document.body.innerHTML = __html__['test.html'];
             //original = document.getElementById('original');
         }
         
