@@ -17,7 +17,7 @@ before_script:
 
   - sleep 3
 
-  - node app.js &
+  - gulp server &
 
   - sleep 3
 

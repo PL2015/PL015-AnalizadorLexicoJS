@@ -72,3 +72,7 @@ gulp.task('default', function() {
       action: 'watch'
     }));
 });
+
+gulp.task('server', function() {
+   return gulp.src('').pipe(shell([ 'node-supervisor app.js' ]));
+});
