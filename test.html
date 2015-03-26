@@ -8,11 +8,11 @@
     
     
     <link href="styles/global.css" rel="stylesheet" type="text/css">
-    <script src="scripts/parse.js"></script>
-    <script src="scripts/tokens.js"></script>
+    <script src="scripts/parse.js" data-cover></script>
+    <script src="scripts/tokens.js" data-cover></script>
     <script src="lib/jquery.min.js"></script>
-
     <script src="scripts/main.js" data-cover></script>
+    <script src="scripts/inputFiles.js"></script>
     
     
   </head>
@@ -36,6 +36,17 @@ var b = function(x) {
       </textarea>
       <br>
       <input id="PARSE" value=parse type=button class="mylink">
+      
+      <button id ="input2" type="button" onclick="dump('input2.txt');">input2</button>
+      
+      <div id="drop_zone">Drop files here</div>
+      <output id="list"></output>
+      
+      <script>
+setupFileList ();
+     </script>
+      
+      
       <pre id=OUTPUT></pre>
 
     

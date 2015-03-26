@@ -1,0 +1,5 @@
+var a = "hello desde input2.txt";
+var b = function(x2) {
+   var c2 = 32;
+   return x2 + c2;
+};
