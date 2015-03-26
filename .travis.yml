@@ -17,7 +17,7 @@ before_script:
 
   - sleep 3
 
-  - node app.js &
+  - node_modules/.bin/mocha -u tdd tests/tests2.js
 
   - sleep 3
 

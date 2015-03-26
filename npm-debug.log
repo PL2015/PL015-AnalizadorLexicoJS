@@ -1,0 +1,220 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS',
+5 verbose install   [ 'jquery',
+5 verbose install     'underscore',
+5 verbose install     'express',
+5 verbose install     'ejs',
+5 verbose install     'body-parser',
+5 verbose install     'express-ejs-layouts',
+5 verbose install     'blanket',
+5 verbose install     'chai',
+5 verbose install     'del',
+5 verbose install     'gulp',
+5 verbose install     'gulp-concat',
+5 verbose install     'gulp-karma',
+5 verbose install     'gulp-minify-css',
+5 verbose install     'gulp-minify-html',
+5 verbose install     'gulp-shell',
+5 verbose install     'gulp-uglify',
+5 verbose install     'gulp-util',
+5 verbose install     'jasmine-core',
+5 verbose install     'karma',
+5 verbose install     'karma-chrome-launcher',
+5 verbose install     'karma-firefox-launcher',
+5 verbose install     'karma-html2js-preprocessor',
+5 verbose install     'karma-jasmine',
+5 verbose install     'karma-mocha',
+5 verbose install     'karma-phantomjs-launcher',
+5 verbose install     'mocha',
+5 verbose install     'node-static',
+5 verbose install     'node-supervisor' ] ]
+6 info preinstall PL015-AnalizadorLexicoJS@0.0.1
+7 verbose readDependencies using package.json deps
+8 verbose already installed skipping gulp-shell@* /Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS
+9 verbose already installed skipping gulp-uglify@^1.1.0 /Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS
+10 verbose already installed skipping gulp-util@^3.0.4 /Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS
+11 verbose already installed skipping jasmine-core@^2.2.0 /Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS
+12 verbose already installed skipping karma@* /Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS
+13 verbose already installed skipping karma-chrome-launcher@* /Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS
+14 verbose already installed skipping karma-firefox-launcher@* /Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS
+15 verbose already installed skipping karma-html2js-preprocessor@* /Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS
+16 verbose already installed skipping karma-jasmine@^0.3.5 /Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS
+17 verbose already installed skipping karma-mocha@* /Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS
+18 verbose already installed skipping karma-phantomjs-launcher@* /Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS
+19 verbose cache add [ 'mocha@latest', null ]
+20 verbose cache add name=undefined spec="mocha@latest" args=["mocha@latest",null]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: 'mocha@latest',
+21 verbose parsed url   path: 'mocha@latest',
+21 verbose parsed url   href: 'mocha@latest' }
+22 verbose already installed skipping node-static@^0.7.6 /Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS
+23 verbose cache add [ 'node-supervisor@*', null ]
+24 verbose cache add name=undefined spec="node-supervisor@*" args=["node-supervisor@*",null]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: 'node-supervisor@*',
+25 verbose parsed url   path: 'node-supervisor@*',
+25 verbose parsed url   href: 'node-supervisor@*' }
+26 verbose cache add name="mocha" spec="latest" args=["mocha","latest"]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: 'latest',
+27 verbose parsed url   path: 'latest',
+27 verbose parsed url   href: 'latest' }
+28 verbose addNamed [ 'mocha', 'latest' ]
+29 verbose addNamed [ null, null ]
+30 verbose cache add name="node-supervisor" spec="*" args=["node-supervisor","*"]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: '*',
+31 verbose parsed url   path: '*',
+31 verbose parsed url   href: '*' }
+32 verbose addNamed [ 'node-supervisor', '*' ]
+33 verbose addNamed [ null, '*' ]
+34 silly lockFile 12215997-mocha-latest mocha@latest
+35 verbose lock mocha@latest /Users/tenerent/.npm/12215997-mocha-latest.lock
+36 silly lockFile d8cd1c82-node-supervisor node-supervisor@*
+37 verbose lock node-supervisor@* /Users/tenerent/.npm/d8cd1c82-node-supervisor.lock
+38 info addNameTag [ 'mocha', 'latest' ]
+39 silly addNameRange { name: 'node-supervisor', range: '*', hasData: false }
+40 verbose request where is /node-supervisor
+41 verbose request registry https://registry.npmjs.org/
+42 verbose request id 786b31726f611173
+43 verbose url raw /node-supervisor
+44 verbose url resolving [ 'https://registry.npmjs.org/', './node-supervisor' ]
+45 verbose url resolved https://registry.npmjs.org/node-supervisor
+46 verbose request where is https://registry.npmjs.org/node-supervisor
+47 info trying registry request attempt 1 at 00:51:57
+48 http GET https://registry.npmjs.org/node-supervisor
+49 verbose already installed skipping jquery@* /Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS
+50 verbose already installed skipping underscore@* /Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS
+51 verbose already installed skipping express@* /Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS
+52 verbose already installed skipping ejs@* /Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS
+53 verbose already installed skipping body-parser@~1.12.0 /Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS
+54 verbose already installed skipping express-ejs-layouts@~1.1.0 /Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS
+55 verbose already installed skipping blanket@^1.1.6 /Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS
+56 verbose already installed skipping chai@^2.1.0 /Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS
+57 verbose already installed skipping del@^1.1.1 /Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS
+58 verbose already installed skipping gulp@^3.8.11 /Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS
+59 verbose already installed skipping gulp-concat@^2.5.2 /Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS
+60 verbose already installed skipping gulp-karma@* /Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS
+61 verbose already installed skipping gulp-minify-css@^0.4.6 /Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS
+62 verbose already installed skipping gulp-minify-html@^1.0.0 /Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS
+63 verbose request where is /mocha
+64 verbose request registry https://registry.npmjs.org/
+65 verbose url raw /mocha
+66 verbose url resolving [ 'https://registry.npmjs.org/', './mocha' ]
+67 verbose url resolved https://registry.npmjs.org/mocha
+68 verbose request where is https://registry.npmjs.org/mocha
+69 info trying registry request attempt 1 at 00:51:57
+70 verbose etag "9LYR452BMBWW56PQGHT1CL6LL"
+71 http GET https://registry.npmjs.org/mocha
+72 http 304 https://registry.npmjs.org/mocha
+73 silly registry.get cb [ 304,
+73 silly registry.get   { date: 'Thu, 26 Mar 2015 00:51:57 GMT',
+73 silly registry.get     server: 'Apache',
+73 silly registry.get     via: '1.1 varnish',
+73 silly registry.get     'last-modified': 'Thu, 26 Mar 2015 00:51:57 GMT',
+73 silly registry.get     'cache-control': 'max-age=60',
+73 silly registry.get     etag: '"9LYR452BMBWW56PQGHT1CL6LL"',
+73 silly registry.get     age: '12',
+73 silly registry.get     'x-served-by': 'cache-fra1232-FRA',
+73 silly registry.get     'x-cache': 'HIT',
+73 silly registry.get     'x-cache-hits': '1',
+73 silly registry.get     'x-timer': 'S1427331117.701340,VS0,VE1',
+73 silly registry.get     vary: 'Accept',
+73 silly registry.get     'content-length': '0',
+73 silly registry.get     'keep-alive': 'timeout=10, max=50',
+73 silly registry.get     connection: 'Keep-Alive' } ]
+74 verbose etag https://registry.npmjs.org/mocha from cache
+75 verbose addNamed [ 'mocha', '2.2.1' ]
+76 verbose addNamed [ '2.2.1', '2.2.1' ]
+77 silly lockFile cd740b7b-mocha-2-2-1 mocha@2.2.1
+78 verbose lock mocha@2.2.1 /Users/tenerent/.npm/cd740b7b-mocha-2-2-1.lock
+79 silly lockFile cd740b7b-mocha-2-2-1 mocha@2.2.1
+80 silly lockFile cd740b7b-mocha-2-2-1 mocha@2.2.1
+81 silly lockFile 12215997-mocha-latest mocha@latest
+82 silly lockFile 12215997-mocha-latest mocha@latest
+83 info already installed mocha@2.2.1
+84 http 404 https://registry.npmjs.org/node-supervisor
+85 verbose headers { date: 'Thu, 26 Mar 2015 00:51:57 GMT',
+85 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+85 verbose headers   'content-type': 'application/json',
+85 verbose headers   'cache-control': 'max-age=0',
+85 verbose headers   'content-length': '51',
+85 verbose headers   'accept-ranges': 'bytes',
+85 verbose headers   via: '1.1 varnish',
+85 verbose headers   age: '0',
+85 verbose headers   'x-served-by': 'cache-fra1240-FRA',
+85 verbose headers   'x-cache': 'MISS',
+85 verbose headers   'x-cache-hits': '0',
+85 verbose headers   'x-timer': 'S1427331117.694082,VS0,VE106',
+85 verbose headers   'keep-alive': 'timeout=10, max=50',
+85 verbose headers   connection: 'Keep-Alive' }
+86 silly registry.get cb [ 404,
+86 silly registry.get   { date: 'Thu, 26 Mar 2015 00:51:57 GMT',
+86 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+86 silly registry.get     'content-type': 'application/json',
+86 silly registry.get     'cache-control': 'max-age=0',
+86 silly registry.get     'content-length': '51',
+86 silly registry.get     'accept-ranges': 'bytes',
+86 silly registry.get     via: '1.1 varnish',
+86 silly registry.get     age: '0',
+86 silly registry.get     'x-served-by': 'cache-fra1240-FRA',
+86 silly registry.get     'x-cache': 'MISS',
+86 silly registry.get     'x-cache-hits': '0',
+86 silly registry.get     'x-timer': 'S1427331117.694082,VS0,VE106',
+86 silly registry.get     'keep-alive': 'timeout=10, max=50',
+86 silly registry.get     connection: 'Keep-Alive' } ]
+87 silly lockFile d8cd1c82-node-supervisor node-supervisor@*
+88 silly lockFile d8cd1c82-node-supervisor node-supervisor@*
+89 error 404 404 Not Found: node-supervisor
+89 error 404
+89 error 404 'node-supervisor' is not in the npm registry.
+89 error 404 You should bug the author to publish it
+89 error 404 It was specified as a dependency of 'PL015-AnalizadorLexicoJS'
+89 error 404
+89 error 404 Maybe try 'npm search supervisor'
+89 error 404
+89 error 404 Note that you can also install from a
+89 error 404 tarball, folder, or http url, or git url.
+90 error System Darwin 10.8.0
+91 error command "node" "/usr/local/bin/npm" "install"
+92 error cwd /Users/tenerent/Downloads/workspace-2015-2c/PL/PL015-AnalizadorLexicoJS
+93 error node -v v0.10.36
+94 error npm -v 1.4.28
+95 error code E404
+96 verbose exit [ 1, true ]
