@@ -525,3 +525,5 @@ var make_parse = function () {
        
     };
 };
+
+module.exports = { make_parseOLE: make_parse}
