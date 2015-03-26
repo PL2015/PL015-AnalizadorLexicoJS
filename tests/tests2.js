@@ -52,7 +52,7 @@ suite('analizadorLex', function () {
    
    });
    
-   test ('Probando el objeto parse', function () {
+   /*test ('Probando el objeto parse', function () {
       var parse = chuchu.make_parseOLE ();
       var entrada = "var aux = \"prueba\";";
                    
@@ -72,7 +72,7 @@ suite('analizadorLex', function () {
                    'value', 'arity', 'first', 'second', 'third', 'fourth'], 4);
       }
       assert.deepEqual(salida, seEspera);
-   });
+   });*/
    
    
    test ('Probando la carga de la pagina index.html usando las views de express', function (done) {
