@@ -26,3 +26,12 @@ app.listen(app.get('port'), function () {
 app.get('/test/', function (request, response) {
    response.render('test', { title: 'Analiz. Lex. JS test' });
 });
+
+var server = app.listen(3000, function () {
+
+   var host = server.address().address
+   var port = server.address().port
+   
+   console.log('Example app listening at http://%s:%', host, port)
+   
+});
