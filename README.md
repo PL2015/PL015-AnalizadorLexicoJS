@@ -1,4 +1,4 @@
-PL015-AnalizadorLexicoJS
+PL015-AnalizadorLexicoJS [![Build Status](https://travis-ci.org/PL2015/PL015-AnalizadorLexicoJS.svg?branch=master)](https://travis-ci.org/PL2015/PL015-AnalizadorLexicoJS)
 ========================
 
 Analizador Léxico para Un Subconjunto de JavaScript
